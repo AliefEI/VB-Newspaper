@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/***laptop/desktop***/
+@media (min-width: 1029px) {
+    header {
+        background-color: #3c2c2c;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        float: left;
+    }
+
+    .what {
+        display: inline;
+        color: white;
+        margin: 30px;
+    }
+
+    .headLine {
+        background-image: url(../VB_Pic/elleP.png);
+        height: 400px;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        float: left;
+        width: 100%;
+    }
+
+    .ellen {
+        position: absolute;
+        display: block;
+        bottom: 50px;
+        left: 100px;
+        background-color: rgb(226, 216, 216);
+        color: #3c2c2c;
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .buffy {
+        border-bottom: gray 1px solid;
+        text-align: center;
+        margin-left: 25%;
+        width: 60%;
+    }
+
+    .buffy a {
+        text-align: center;
+        font-size: 2rem;
+
+    }
+
+    .buffy img {
+        padding-top: 5px;
+        float: left;
+        border: 1px black solid;
+    }
+    .burger{
+        display: none;
+    }
+}
+
+/***tablet***/
+@media (min-width:771px) and (max-width:1029px) {
+    header {
+        background-color: #3c2c2c;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        float: left;
+    }
+
+    .what {
+        display: inline;
+        color: white;
+        margin: 30px;
+    }
+
+    .headLine {
+        background-image: url(../VB_Pic/elleP.png);
+        height: 400px;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        float: left;
+        width: 100%;
+    }
+
+    .ellen {
+        position: absolute;
+        display: block;
+        bottom: 50px;
+        left: 100px;
+        background-color: rgb(226, 216, 216);
+        color: #3c2c2c;
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .buffy {
+        border-bottom: gray 1px solid;
+        text-align: center;
+        margin-left: 25%;
+        width: 60%;
+    }
+
+    .buffy a {
+        text-align: center;
+        font-size: 1.5rem;
+
+    }
+
+    .buffy img {
+        padding-top: 5px;
+        float: left;
+        border: 1px black solid;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+/****mobile****/
+@media (max-width:770px) {
+    header {
+        background-color: #3c2c2c;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        float: left;
+    }
+
+    .what {
+        display: none;
+        color: white;
+        margin: 30px;
+    }
+
+    .burger {
+        display: flex;
+        float: right;
+        color: white;
+        padding-left: 20px;
+    }
+
+    .headLine {
+        background-image: url(../VB_Pic/elleP.png);
+        height: 400px;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        float: left;
+        width: 100%;
+    }
+
+    .ellen {
+        position: absolute;
+        display: block;
+        bottom: 50px;
+        left: 100px;
+        background-color: rgb(226, 216, 216);
+        color: #3c2c2c;
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .buffy {
+        border-bottom: gray 1px solid;
+        text-align: center;
+        margin-left: 25%;
+        width: 60%;
+    }
+
+    .buffy a {
+        text-align: center;
+        font-size: .5rem;
+    }
+
+    .buffy img {
+        padding-top: 5px;
+        float: left;
+        border: 1px black solid;
+    }
+}
+
+/*****pics*****/
+
+.ellenP {
+    width: 100%;
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+    height: 20px;
+}
